@@ -44,9 +44,6 @@ let check=()=>{
         dateresult=true;
         dateerr.style.color="white";
     }
-    if(nameresult&&numresult&&dateresult)
-    {
-        return true;
-    }
-    return false;
+    return (nameresult&&numresult&&dateresult);
+    
 }
