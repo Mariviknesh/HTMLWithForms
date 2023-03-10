@@ -1,0 +1,54 @@
+.form{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+   
+}
+.input{
+size: 100px;
+border-radius: 3px;
+}
+.form{
+    background-image: url('computer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -33px;
+    background-position-x: -5px;
+}
+.label
+{
+    color: green;
+    font-size: large;
+}
+.container{
+    margin-top: 100px;
+    position: fixed;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+}
+.submit
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.item
+{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.errlabel
+{
+    color: red;
+    font-size: large;
+}
+body{
+    background-image:url('computer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

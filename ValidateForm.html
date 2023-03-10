@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio data</title>
+    <link rel="stylesheet" href="ValidateForm.css">
+    <script src="ValidateForm.js">
+    </script>
+</head>
+<body>
+    <div class="form" >
+        <form id="form" onsubmit="return check();">
+            <div class="container">
+                <div class="item">
+                    <label class="label">Enter Name  :</label>
+                    <label class="label">Enter DOB   :</label>
+                    <label class="label">Phone number:</label>
+                </div>
+                <div class="item"> 
+                    <input type="text" id="name" class="input">
+                    <input type="date" id="date" class="input">
+                    <input type="number" id="number" class="input">
+                </div>
+                <div class="item">
+                    <label id="nameerr" class="errlabel"></label>
+                    <label id="dateerr" class="errlabel"></label>
+                    <label id="numerr" class="errlabel"></label>
+                </div>
+            </div>
+            
+            <div class="submit">
+                <input type="submit" id="submit">
+            </div>
+            
+            </form>
+    </div>
+    
+</body>
+</html>
