@@ -10,6 +10,7 @@ let check=()=>{
     let nameresult;
     let numresult;
     let dateresult;
+    let current="2023-03-10";
     if(name.value==""||!name.value.match(letters))
     {
         document.getElementById("nameerr").innerHTML="Invalid input text";
@@ -33,11 +34,12 @@ let check=()=>{
         numresult=true;
         numerr.style.color="white";
     }
-    if(date.value=="")
+    if(date.value=="" || !(date.value<current))
     {
         document.getElementById("dateerr").innerHTML="Invalid date";
         console.log("date error");
         dateresult=false;
+        dateerr.style.color="red";
     }
     else{
         document.getElementById("dateerr").innerHTML="-";
