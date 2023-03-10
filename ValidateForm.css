@@ -14,8 +14,7 @@ border-radius: 3px;
     background-image: url('computer.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -33px;
-    background-position-x: 0px;
+    background-position-y: -35px;
 }
 .label
 {
@@ -51,4 +50,6 @@ body{
     background-image:url('computer.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: 5px;
+
 }
