@@ -4,18 +4,16 @@
     justify-content: center;
     align-content: center;
     background-color: white;
-   
-}
-.input{
-size: 100px;
-border-radius: 3px;
-}
-.form{
     background-image: url('computer.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -35px;
 }
+.input{
+size: 100px;
+border-radius: 3px;
+}
+    
 .label
 {
     color: green;
