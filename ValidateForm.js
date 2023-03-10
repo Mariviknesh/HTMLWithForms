@@ -6,10 +6,10 @@ let check=()=>{
     let nameerr=document.getElementById("nameerr");
     let numerr=document.getElementById("numerr");
     let dateerr=document.getElementById("dateerr");
-    var letters = /^[A-Za-z]+$/;
-    let nameresult=true;
-    let numresult=true;
-    let dateresult=true;
+    let letters = /^[A-Za-z]+$/;
+    let nameresult;
+    let numresult;
+    let dateresult;
     if(name.value==""||!name.value.match(letters))
     {
         document.getElementById("nameerr").innerHTML="Invalid input text";
@@ -44,7 +44,7 @@ let check=()=>{
         dateresult=true;
         dateerr.style.color="white";
     }
-    if(nameresult==true&&numresult==true&&dateresult==true)
+    if(nameresult&&numresult&&dateresult)
     {
         return true;
     }
