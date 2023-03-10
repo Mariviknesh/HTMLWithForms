@@ -34,7 +34,7 @@ let check=()=>{
         numresult=true;
         numerr.style.color="white";
     }
-    if(date.value=="" || !(date.value<current))
+    if(date.value=="" || (date.value>=current))
     {
         document.getElementById("dateerr").innerHTML="Invalid date";
         console.log("date error");
